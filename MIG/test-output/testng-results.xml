@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32076" started-at="2017-02-23T01:09:45Z" finished-at="2017-02-23T01:10:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32076" started-at="2017-02-23T01:09:45Z" finished-at="2017-02-23T01:10:17Z">
+      <class name="mig_tests.MIGTests">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mig_tests.MIGTests@73ad2d6]" name="openBrowser" is-config="true" duration-ms="4124" started-at="2017-02-22T17:09:45Z" finished-at="2017-02-22T17:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyGooglePage()[pri:0, instance:mig_tests.MIGTests@73ad2d6]" name="verifyGooglePage" duration-ms="4509" started-at="2017-02-22T17:09:49Z" finished-at="2017-02-22T17:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePage -->
+        <test-method status="PASS" signature="verifyMIWSearchOnGoogle()[pri:0, instance:mig_tests.MIGTests@73ad2d6]" name="verifyMIWSearchOnGoogle" duration-ms="2861" started-at="2017-02-22T17:09:54Z" finished-at="2017-02-22T17:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMIWSearchOnGoogle -->
+        <test-method status="PASS" signature="verifyRitchieBrosAuctioneersSearch_Caterpilar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mig_tests.MIGTests@73ad2d6]" name="verifyRitchieBrosAuctioneersSearch_Caterpilar" duration-ms="19299" started-at="2017-02-22T17:09:57Z" data-provider="RBASearchCriteria" finished-at="2017-02-22T17:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Construction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Excavators]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRitchieBrosAuctioneersSearch_Caterpilar -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mig_tests.MIGTests@73ad2d6]" name="closeBrowser" is-config="true" duration-ms="1250" started-at="2017-02-22T17:10:16Z" finished-at="2017-02-22T17:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mig_tests.MIGTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
